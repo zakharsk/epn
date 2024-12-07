@@ -1,14 +1,12 @@
-import { api } from "encore.dev/api"
+import { api } from "encore.dev/api";
 
-interface HealthRequest {
-}
+interface HealthRequest {}
 
-interface HealthResponse {
-}
+interface HealthResponse {}
 
 export const health = api(
-    { method: "GET", path: "/health", expose: true },
-    async (req: HealthRequest): Promise<HealthResponse> => {
-        return {};
-    }
+  { method: "GET", path: "/health", expose: true },
+  async (req: HealthRequest): Promise<HealthResponse> => {
+    return {};
+  },
 );

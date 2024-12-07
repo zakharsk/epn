@@ -1,0 +1,7 @@
+# Ignore artifacts:
+coverage
+.encore
+encore.gen.go
+encore.gen.cue
+node_modules
+/encore.gen
